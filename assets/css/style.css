@@ -453,7 +453,6 @@ h6,
   text-decoration: none;
 }
 
-
 .why-us .btn-get-started {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -477,7 +476,6 @@ h6,
   text-decoration: none;
 }
 
-
 @media (min-width: 1024px) {
   #hero p {
     width: 60%;
@@ -500,7 +498,6 @@ h6,
   .scroll-down {
     display: none;
   }
-
 
   #hero::before {
     top: 0;
@@ -555,13 +552,13 @@ h6,
   bottom: 0;
   background: linear-gradient(
     to bottom,
-    rgba(30, 67, 86, 0.85),
-    rgba(30, 67, 86, 0.55)
+    rgba(30, 67, 86, 0.1),
+    rgba(30, 67, 86, 0.3)
   );
 }
 
 #hero-no-slider {
-  background-image: url("../img/hero-bg-1.jpg");
+  background-image: url("../img/hero-bg-2.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -2392,24 +2389,21 @@ section {
   height: 4rem;
 }
 
-
-.clients img{
+.clients img {
   height: 5em;
 }
 
-.clients{
+.clients {
   display: flex;
   margin-top: 1.5em;
   overflow: hidden;
-} 
+}
 
-.row h5{
+.row h5 {
   color: #979ea4;
 }
 
-
-
-.project-info{
+.project-info {
   display: flex;
   flex-direction: column;
   justify-items: center;
@@ -2420,8 +2414,7 @@ section {
   display: flex;
 }
 
-
-.project-info i{
+.project-info i {
   font-size: 1.3em;
   color: #68a4c4;
   margin-right: 0.5em;
@@ -2436,14 +2429,12 @@ section {
 
 .footer-contact strong {
   color: #68a4c4;
-
 }
 
 .more-services-btn {
   display: flex;
   justify-content: center;
 }
-
 
 /* SCROLL DOWN */
 .scroll-down {
@@ -2478,7 +2469,6 @@ section {
   -o-animation: elasticus 1.2s cubic-bezier(1, 0, 0, 1) infinite;
   animation: elasticus 1.2s cubic-bezier(1, 0, 0, 1) infinite;
 }
-
 
 .scroll-down span::before {
   position: absolute;
