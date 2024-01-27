@@ -1,0 +1,31 @@
+.h{
+border-bottom: 1px solid #617988;
+}
+
+.rou{
+    margin: px;
+    width: 250px; 
+    height: 250px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.m{
+    margin: auto;
+    display: flex;
+}
+
+   .m a{
+    margin: auto;
+    display: flex;
+}
+.pagination{
+    color: #222f37;
+  }
+  .logo{
+    width: 150px;
+    margin-bottom: 1.2em;
+  }
